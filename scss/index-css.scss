@@ -1,0 +1,115 @@
+// -----MI-NAV-----
+nav {
+    background-color: rgba(0, 0, 0, 0.397);
+
+    h1 {
+        color: white;
+        font-size: 0.7em;
+    }
+
+    .icono-nav {
+        background-color: aqua;
+    }
+
+    li {
+        color: white;
+        font-size: 0.8em;
+        font-weight: 500;
+        padding: 8px;
+    }
+
+    li:hover {
+        color: $color-hover;
+    }
+
+    li:active {
+        color: $color-active;
+    }
+
+}
+
+main {
+    background-color: black;
+}
+
+// ----CARRUSEL----
+.carousel-item {
+    .carru-text {
+        margin-bottom: 300px;
+
+        h2 {
+            font-size: 100px;
+            font-weight: 400;
+            font-family: 'Cairo', sans-serif;
+            text-shadow: 2px 2px 2px rgb(78, 78, 78)
+        }
+
+        .modi-tex {
+            font-size: 60px;
+            font-weight: 400;
+            font-family: 'Cairo', sans-serif;
+        }
+    }
+}
+
+.titulo-equipo {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+.equipo-mb {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // margin-bottom: 25px;
+
+
+    .box-img {
+        position: relative;
+        text-align: center;
+        width: 350px;
+        height: 350px;
+        box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.75);
+        -webkit-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.75);
+        -moz-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.75);
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 2px;
+        }
+
+        h4 {
+            position: absolute;
+            bottom: -2%;
+            background-color: rgba(0, 0, 0, 0.521);
+            width: 100%;
+            color: white;
+        }
+    }
+}
+
+.box-img:hover {
+    transform: scale(0.98);
+}
+
+
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 25px;
+
+    .redes img {
+        height: 30px;
+        width: 30px;
+    }
+
+    input {
+        width: 305px;
+    }
+
+}
