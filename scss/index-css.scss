@@ -28,7 +28,7 @@ nav {
 
 }
 
-main {
+.body-home {
     background-color: black;
 }
 
@@ -62,7 +62,6 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    // margin-bottom: 25px;
 
 
     .box-img {
@@ -82,7 +81,7 @@ main {
 
         h4 {
             position: absolute;
-            bottom: -2%;
+            bottom: -2.3%;
             background-color: rgba(0, 0, 0, 0.521);
             width: 100%;
             color: white;
@@ -95,21 +94,186 @@ main {
 }
 
 
-
 .section-2 {
+    height: 150px;
+    align-items: center;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .redes {
+        display: flex;
+        align-items: center;
+
+        div {
+            padding: 10px;
+
+
+            span:hover {
+                color: $color-hover
+            }
+
+            span:active {
+                color: $color-active;
+            }
+
+            span {
+                font-family: 'Cairo', sans-serif;
+                font-weight: 400;
+                color: white;
+            }
+
+            img {
+                height: 40px;
+                width: 40px;
+                padding: 3px;
+            }
+
+            .img-insta {
+                height: 30px;
+                width: 30px;
+                padding: 3px;
+            }
+        }
+    }
+}
+
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    padding-top: 25px;
+    background-color: rgb(19, 18, 18);
 
-    .redes img {
-        height: 30px;
-        width: 30px;
+    .nav-footer {
+        display: flex;
+        text-align: center;
+
+
+        a {
+            padding: 8px;
+            text-decoration: none;
+
+            p:hover {
+                color: $color-hover;
+            }
+
+            p:active {
+                color: $color-active;
+            }
+
+            p {
+                margin: 0%;
+                color: white;
+                font-family: 'Cairo', sans-serif;
+            }
+        }
     }
 
-    input {
-        width: 305px;
+    .no-copy {
+        padding: 8px;
+
+        span {
+            color: rgb(143, 141, 141);
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .equipo-mb {
+
+        div {
+            height: 300px !important;
+            width: 300px !important;
+
+            img {
+                height: 300px !important;
+                width: 300px !important;
+            }
+        }
     }
 
+    .carousel-item {
+        .carru-text {
+            margin-bottom: 200px;
+    
+            h2 {
+                font-size: 70px;
+                font-weight: 300;
+            }
+    
+            .modi-tex {
+                font-size: 40px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .equipo-mb {
+
+        div {
+            height: 220px !important;
+            width: 220px !important;
+
+            img {
+                height: 220px !important;
+                width: 220px !important;
+            }
+        }
+    }
+
+    .carousel-item {
+        .carru-text {
+            margin-bottom: 150px;
+    
+            h2 {
+                font-size: 50px;
+                font-weight: 200;
+            }
+    
+            .modi-tex {
+                font-size: 30px;
+                font-weight: 200;
+            }
+        }
+    }
+
+    h1 {
+        position: absolute;
+        left: 350px;        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        position: absolute;
+        left: 200px;        
+    }
+
+    .equipo-mb {
+        div {
+            height: 300px !important;
+            width: 300px !important;
+            margin-top: 25px;
+
+            img {
+                height: 300px !important;
+                width: 300px !important;
+            }
+
+            h4 {
+                position: absolute;
+                bottom: -3% !important;
+            }
+        }
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
