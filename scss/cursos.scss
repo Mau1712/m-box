@@ -1,0 +1,24 @@
+.sec-cursos {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card-curso {
+        .btn {
+            background-color: aqua;
+            font-family: 'Cairo', sans-serif;
+            color: black;
+        }
+
+        .btn:hover {
+            background-color: rgb(3, 170, 170);
+            color: white;
+        }
+    }
+}
+
+
+.body-cursos {
+    background-image: url(../imagenes/fondo-cursos.jpg);
+}

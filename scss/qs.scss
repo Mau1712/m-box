@@ -1,0 +1,89 @@
+.body-qs {
+    background-image: url(../imagenes/fondo-qs.png);
+}
+
+.main-qs {
+    margin-top: 120px;
+
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Cairo', sans-serif;
+        text-shadow: $textos-shadow;
+        margin-bottom: 25px;
+    }
+
+    .mision {
+        
+        .parrafo-qs {
+            animation-duration: 3s;
+        }
+
+        p {
+            color: white;
+            margin-top: 70px;
+            font-family: 'Cairo', sans-serif;
+        }
+    }
+
+    .vision {
+        p {
+            color: white;
+            margin-top: 100px;
+            background-color: rgba(0, 0, 0, 0.452);
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .parrafo-vision {
+            animation-duration: 7s;
+        }
+    }
+}
+
+.img-mision {
+    animation-duration: 3s;
+}
+
+.img-vision {
+    animation-duration: 7s;
+}
+
+@media screen and (max-width: 1126px) {
+    .port-grid-fil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .img-vision {
+            margin-top: 50px;
+        }
+        
+        img {
+            width: 100%;
+        }
+
+        .vision {
+
+            width: 350px;
+
+            p {
+                margin-top: 0%;
+            }
+            
+        }
+    }
+
+    .mision {
+        width: 350px !important;
+
+        p {
+            margin-top: 20px !important;
+        }
+    }
+
+    h2 {
+        font-size: 70px !important;
+    }
+
+}
