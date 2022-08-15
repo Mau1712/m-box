@@ -166,3 +166,9 @@ footer {
   footer {
     display: flex;
     flex-direction: column; } }
+
+@media screen and (max-width: 414px) {
+  .section-2 span {
+    font-size: 10px; }
+  .nav-footer p {
+    font-size: 13px; } }
