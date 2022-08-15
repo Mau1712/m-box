@@ -30,6 +30,14 @@ nav {
     font-weight: 400;
     font-family: 'Cairo', sans-serif; }
 
+.whatsfloat img {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  z-index: 100; }
+
 .titulo-equipo {
   text-align: center;
   font-family: 'Cairo', sans-serif;
@@ -171,4 +179,121 @@ footer {
   .section-2 span {
     font-size: 10px; }
   .nav-footer p {
-    font-size: 13px; } }
+    font-size: 13px; }
+  h1 {
+    visibility: hidden; } }
+
+.body-service {
+  background-image: url(../imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-color: black; }
+
+.section-service {
+  margin-top: 120px; }
+  .section-service .fila-prin {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .section-service .fila-prin .card {
+      text-align: center;
+      margin-top: 30px; }
+      .section-service .fila-prin .card .btn {
+        background-color: aqua;
+        font-family: 'Cairo', sans-serif; }
+      .section-service .fila-prin .card .btn:hover {
+        background-color: #03aaaa;
+        color: white; }
+  .section-service .fila-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 35px; }
+    .section-service .fila-sec .card {
+      text-align: center;
+      margin-top: 30px; }
+      .section-service .fila-sec .card .btn {
+        background-color: aqua;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 400; }
+      .section-service .fila-sec .card .btn:hover {
+        background-color: #03aaaa;
+        color: white; }
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 15rem !important;
+    height: 30rem !important; }
+    .card .btn {
+      position: absolute;
+      bottom: 10px;
+      right: 25%; } }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 14rem !important;
+    height: 29rem !important; }
+    .card .btn {
+      position: absolute;
+      bottom: 10px;
+      right: 25%; } }
+
+@media screen and (max-width: 671px) {
+  .card {
+    width: 25rem !important;
+    height: 36rem !important; }
+    .card .btn {
+      position: absolute;
+      bottom: 10px;
+      right: 33%; }
+  h1 {
+    visibility: hidden; } }
+
+@media screen and (max-width: 425px) {
+  .card {
+    width: 19rem !important;
+    height: 30rem !important; }
+    .card .btn {
+      position: absolute;
+      bottom: 10px;
+      right: 30%; } }
+
+.body-portafolio {
+  background-image: url(../imagenes/fondo-porta.jpg); }
+
+.main-porta {
+  margin-top: 150px; }
+
+.porta-1 iframe {
+  box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.75); }
+
+.porta-1 a {
+  text-decoration: none; }
+  .porta-1 a h3 {
+    color: white;
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.363); }
+  .porta-1 a h3:hover {
+    color: aqua; }
+
+.porta-1 p {
+  color: white;
+  text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.452); }
+
+@media screen and (max-width: 1202px) {
+  .linea-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .porta-1 {
+    width: 530px !important;
+    padding: 0% !important; } }
+
+@media screen and (max-width: 550px) {
+  .porta-1 {
+    width: 350px !important;
+    height: 300px; }
+    .porta-1 iframe {
+      width: 350px;
+      height: 220px; } }

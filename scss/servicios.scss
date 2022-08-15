@@ -1,0 +1,112 @@
+// Servicios
+
+.body-service {
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+.section-service {
+    margin-top: 120px;
+
+    .fila-prin {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .card {
+            text-align: center;
+            margin-top: 30px;
+
+            .btn {
+                background-color: aqua;
+                font-family: 'Cairo', sans-serif;
+            }
+
+            .btn:hover {
+                background-color: rgb(3, 170, 170);
+                color: white;
+            }
+        }
+    }
+
+    .fila-sec {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+
+        .card {
+            text-align: center;
+            margin-top: 30px;            
+
+            .btn {
+                background-color: aqua;
+                font-family: 'Cairo', sans-serif;
+                font-weight: 400;
+            }
+
+            .btn:hover {
+                background-color: rgb(3, 170, 170);
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 15rem !important;
+        height: 30rem !important;    
+        
+        .btn {
+            position: absolute;
+            bottom: 10px;
+            right: 25%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 14rem !important;
+        height: 29rem !important;    
+        
+        .btn {
+            position: absolute;
+            bottom: 10px;
+            right: 25%;
+        }
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .card {
+        width: 25rem !important;
+        height: 36rem !important;    
+        
+        .btn {
+            position: absolute;
+            bottom: 10px;
+            right: 33%;
+        }
+    }
+
+    h1 {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card {
+        width: 19rem !important;
+        height: 30rem !important;    
+        
+        .btn {
+            position: absolute;
+            bottom: 10px;
+            right: 30%;
+        }
+    }
+}

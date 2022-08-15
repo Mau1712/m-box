@@ -52,6 +52,22 @@ nav {
     }
 }
 
+.whatsfloat {
+    img {
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        right: 20px;
+        bottom: 60px;
+        z-index: 100;
+
+    }
+}
+
+
+
+// -----EQUIPO-DE-TRABAJO-----
+
 .titulo-equipo {
     text-align: center;
     font-family: 'Cairo', sans-serif;
@@ -196,12 +212,12 @@ footer {
     .carousel-item {
         .carru-text {
             margin-bottom: 200px;
-    
+
             h2 {
                 font-size: 70px;
                 font-weight: 300;
             }
-    
+
             .modi-tex {
                 font-size: 40px;
                 font-weight: 300;
@@ -229,12 +245,12 @@ footer {
     .carousel-item {
         .carru-text {
             margin-bottom: 150px;
-    
+
             h2 {
                 font-size: 50px;
                 font-weight: 200;
             }
-    
+
             .modi-tex {
                 font-size: 30px;
                 font-weight: 200;
@@ -244,14 +260,14 @@ footer {
 
     h1 {
         position: absolute;
-        left: 350px;        
+        left: 350px;
     }
 }
 
 @media screen and (max-width: 425px) {
     h1 {
         position: absolute;
-        left: 200px;        
+        left: 200px;
     }
 
 
@@ -272,15 +288,15 @@ footer {
             }
         }
     }
-    
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 414px) {
-    .section-2{
+    .section-2 {
         span {
             font-size: 10px;
         }
@@ -290,5 +306,9 @@ footer {
         p {
             font-size: 13px;
         }
+    }
+
+    h1 {
+        visibility: hidden;
     }
 }
