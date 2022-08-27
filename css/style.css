@@ -18,17 +18,20 @@ nav {
 .body-home {
   background-color: black; }
 
-.carousel-item .carru-text {
-  margin-bottom: 300px; }
-  .carousel-item .carru-text h2 {
-    font-size: 100px;
-    font-weight: 400;
-    font-family: 'Cairo', sans-serif;
-    text-shadow: 2px 2px 2px #4e4e4e; }
-  .carousel-item .carru-text .modi-tex {
-    font-size: 60px;
-    font-weight: 400;
-    font-family: 'Cairo', sans-serif; }
+.carousel-item .carru-text h2 {
+  font-size: 100px;
+  font-weight: 400;
+  font-family: 'Cairo', sans-serif;
+  text-shadow: 2px 2px 2px #4e4e4e; }
+
+.carousel-item .carru-text p {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #4e4e4e; }
+
+.carousel-item .carru-text .modi-tex {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: 'Cairo', sans-serif; }
 
 .whatsfloat img {
   height: 50px;
@@ -129,14 +132,8 @@ footer {
     .equipo-mb div img {
       height: 300px !important;
       width: 300px !important; }
-  .carousel-item .carru-text {
-    margin-bottom: 200px; }
-    .carousel-item .carru-text h2 {
-      font-size: 70px;
-      font-weight: 300; }
-    .carousel-item .carru-text .modi-tex {
-      font-size: 40px;
-      font-weight: 300; } }
+  .titulo-equipo h2 {
+    font-size: 30px !important; } }
 
 @media screen and (max-width: 768px) {
   .equipo-mb div {
@@ -145,22 +142,38 @@ footer {
     .equipo-mb div img {
       height: 220px !important;
       width: 220px !important; }
-  .carousel-item .carru-text {
-    margin-bottom: 150px; }
-    .carousel-item .carru-text h2 {
-      font-size: 50px;
-      font-weight: 200; }
-    .carousel-item .carru-text .modi-tex {
-      font-size: 30px;
-      font-weight: 200; }
   h1 {
     position: absolute;
-    left: 350px; } }
+    left: 350px; }
+  .titulo-equipo h2 {
+    font-size: 20px !important; } }
+
+@media screen and (max-width: 700px) {
+  .carru-text h2 {
+    font-size: 50px !important; }
+  .carru-text p {
+    font-size: 15px !important; }
+  .titulo-equipo h2 {
+    font-size: 25px !important; } }
+
+@media screen and (max-width: 510px) {
+  .carru-text h2 {
+    font-size: 40px !important; }
+  .carru-text p {
+    font-size: 12px !important; }
+  .titulo-equipo h2 {
+    font-size: 20px !important; } }
 
 @media screen and (max-width: 425px) {
   h1 {
     position: absolute;
     left: 200px; }
+  .carru-text h2 {
+    font-size: 30px !important; }
+  .carru-text p {
+    font-size: 10px !important; }
+  .titulo-equipo h2 {
+    font-size: 25px !important; }
   .equipo-mb div {
     height: 300px !important;
     width: 300px !important;

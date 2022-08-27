@@ -33,17 +33,23 @@ nav {
 }
 
 // ----CARRUSEL----
-.carousel-item {
-    .carru-text {
-        margin-bottom: 300px;
 
+
+
+.carousel-item {
+
+        .carru-text {
         h2 {
             font-size: 100px;
             font-weight: 400;
             font-family: 'Cairo', sans-serif;
             text-shadow: 2px 2px 2px rgb(78, 78, 78)
         }
-
+        
+        p {
+            font-size: 20px;
+            text-shadow: 2px 2px 2px rgb(78, 78, 78)
+        }
         .modi-tex {
             font-size: 60px;
             font-weight: 400;
@@ -196,6 +202,7 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+
     .equipo-mb {
 
         div {
@@ -209,21 +216,12 @@ footer {
         }
     }
 
-    .carousel-item {
-        .carru-text {
-            margin-bottom: 200px;
-
-            h2 {
-                font-size: 70px;
-                font-weight: 300;
-            }
-
-            .modi-tex {
-                font-size: 40px;
-                font-weight: 300;
-            }
+    .titulo-equipo {
+        h2{
+            font-size: 30px !important;
         }
     }
+
 }
 
 
@@ -242,26 +240,55 @@ footer {
         }
     }
 
-    .carousel-item {
-        .carru-text {
-            margin-bottom: 150px;
-
-            h2 {
-                font-size: 50px;
-                font-weight: 200;
-            }
-
-            .modi-tex {
-                font-size: 30px;
-                font-weight: 200;
-            }
-        }
-    }
-
     h1 {
         position: absolute;
         left: 350px;
     }
+
+    .titulo-equipo {
+        h2{
+            font-size: 20px !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .carru-text {
+        h2{
+            font-size: 50px !important;
+        }
+        p {
+            font-size: 15px !important;
+        }
+    }
+
+    .titulo-equipo {
+        h2{
+            font-size: 25px !important;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 510px) {
+    .carru-text {
+        h2{
+            font-size: 40px !important;
+        }
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    .titulo-equipo {
+        h2{
+            font-size: 20px !important;
+        }
+    }
+
+
 }
 
 @media screen and (max-width: 425px) {
@@ -270,6 +297,21 @@ footer {
         left: 200px;
     }
 
+    .carru-text {
+        h2{
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 10px !important;
+        }
+    }
+
+    .titulo-equipo {
+        h2 {
+            font-size: 25px !important;
+        }
+    }
+    
 
     .equipo-mb {
         div {
@@ -311,4 +353,6 @@ footer {
     h1 {
         visibility: hidden;
     }
+
+    
 }
