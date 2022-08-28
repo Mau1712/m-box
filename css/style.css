@@ -378,3 +378,57 @@ footer {
       margin-top: 20px !important; }
   h2 {
     font-size: 70px !important; } }
+
+.poryectos-dig {
+  background-image: url(../imagenes/fondo-proyectos-dig.png); }
+  .poryectos-dig .animate__swing {
+    animation-duration: 3s; }
+
+.card-proyectos-dig {
+  margin-top: 120px;
+  box-shadow: 0px 0px 13px -3px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 0px 13px -3px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 13px -3px rgba(255, 255, 255, 0.75);
+  border-radius: 2%; }
+  .card-proyectos-dig .comprar-ahora {
+    margin-bottom: 2%; }
+    .card-proyectos-dig .comprar-ahora a {
+      background-color: aqua;
+      font-family: 'Cairo', sans-serif;
+      text-decoration: none;
+      padding: 6px;
+      border-radius: 6px;
+      color: black; }
+    .card-proyectos-dig .comprar-ahora a:hover {
+      background-color: #03aaaa;
+      color: white; }
+
+.box-01-prodig {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .box-01-prodig img {
+    box-shadow: 0px 0px 13px -3px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 13px -3px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 13px -3px rgba(255, 255, 255, 0.75);
+    border-radius: 2%; }
+  .box-01-prodig .animate__backInLeft {
+    animation-duration: 3s; }
+  .box-01-prodig .animate__backInRight {
+    animation-duration: 3s; }
+
+@media screen and (max-width: 1099px) {
+  .funcionalidad {
+    margin-top: 30px; } }
+
+@media screen and (max-width: 768px) {
+  .comprar-ahora {
+    padding-bottom: 15px; } }
+
+@media screen and (max-width: 425px) {
+  .card-proyectos-dig {
+    height: max-content !important; }
+    .card-proyectos-dig .comprar-ahora {
+      padding-bottom: 15px; } }
