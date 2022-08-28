@@ -1,0 +1,91 @@
+.body-curso-html {
+    background-image: url(../imagenes/fondo-curso-html.png);
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.titulo-cur-html {
+    display: flex;
+    justify-content: end;
+    margin-top: 110px;
+    margin-right: 160px;
+
+
+    h2 {
+        font-family: 'Cairo', sans-serif;
+        text-shadow: $textos-shadow;
+        color: white;
+        font-size: 90px;
+    }
+}
+
+.puntos-curso-html {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 70px;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+
+    p {
+        color: white;
+        font-size: 20px;
+        text-shadow: $textos-shadow;
+        padding: 8px;
+    }
+
+    .comprar-ahora {
+
+        margin-bottom: 2%;
+
+        a {
+            background-color: aqua;
+            font-family: 'Cairo', sans-serif;
+            text-decoration: none;
+            padding: 6px;
+            border-radius: 6px;
+            color: black;
+        }
+
+        a:hover {
+            background-color: rgb(3, 170, 170);
+            color: white;
+        }
+    }
+}
+
+
+
+.footer-curso-html {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 792px) {
+
+    .puntos-curso-html {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-right: 0%;
+        align-items: center;
+
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .titulo-cur-html {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-right: 0%;
+
+        h2 {
+            font-size: 50px !important;
+        }
+    }
+}
+
